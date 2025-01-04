@@ -1,0 +1,78 @@
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2em;
+    margin: 2em 0;
+}
+
+.portfolio-item {
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease;
+}
+
+.portfolio-item:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-thumbnail img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.portfolio-item h3 {
+    margin: 0.8em 0;
+    font-size: 1.2em;
+}
+
+.portfolio-categories {
+    margin: 0.5em 0;
+}
+
+.portfolio-category-badge {
+    display: inline-block;
+    padding: 0.3em 0.8em;
+    margin: 0 0.4em 0.4em 0;
+    font-size: 0.85em;
+    background: #f0f0f0;
+    color: #666;
+    border-radius: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.portfolio-category-badge:hover {
+    background: #e0e0e0;
+}
+
+.portfolio-excerpt {
+    margin-bottom: 1em;
+    color: #666;
+}
+
+.portfolio-link {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: #0073aa;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-link:hover {
+    background: #005177;
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio-category {
+    margin-bottom: 3em;
+}
+
+.portfolio-category h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
